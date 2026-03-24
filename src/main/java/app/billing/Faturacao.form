@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="app.billing.Faturacao">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="616" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1117964"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="eecc2" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1117964"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="be3d3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Cascadia Code"/>
+              <text value="Fatura"/>
+            </properties>
+          </component>
+          <component id="6e2a3" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Cascadia Code"/>
+              <model/>
+            </properties>
+          </component>
+          <grid id="78508" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6492693"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="19f92" class="javax.swing.JButton" binding="cancelarButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10882580"/>
+                  <font name="Cascadia Code"/>
+                  <foreground color="-11177082"/>
+                  <text value="Cancelar"/>
+                </properties>
+              </component>
+              <component id="ac798" class="javax.swing.JButton" binding="confirmarButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10882580"/>
+                  <font name="Cascadia Code"/>
+                  <foreground color="-11177082"/>
+                  <text value="Confirmar"/>
+                </properties>
+              </component>
+              <component id="6aaba" class="javax.swing.JButton" binding="removerButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10882580"/>
+                  <font name="Cascadia Code"/>
+                  <foreground color="-11177082"/>
+                  <text value="Remover"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="cc280" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Cascadia Code"/>
+              <text value="Total"/>
+            </properties>
+          </component>
+          <component id="47aec" class="javax.swing.JLabel" binding="price">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Cascadia Code"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4a83a" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1117964"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1dbf2" class="javax.swing.JButton" binding="produtosButton">
+            <constraints>
+              <grid row="0" column="1" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10882580"/>
+              <font name="Cascadia Code"/>
+              <foreground color="-11177082"/>
+              <text value="Produtos"/>
+            </properties>
+          </component>
+          <component id="58d1b" class="javax.swing.JButton" binding="bilhetesButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10882580"/>
+              <font name="Cascadia Code"/>
+              <foreground color="-11177082"/>
+              <text value="Bilhetes"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6ce5b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1117964"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4ffd7" class="javax.swing.JButton" binding="voltarButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Cascadia Code"/>
+              <horizontalAlignment value="0"/>
+              <text value="Voltar"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <vspacer id="6cab8">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <component id="c2cb2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cascadia Code" size="20" style="1"/>
+          <text value="Faturação"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
